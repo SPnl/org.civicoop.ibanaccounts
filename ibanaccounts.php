@@ -68,7 +68,7 @@ function ibanaccounts_civicrm_tabs(&$tabs, $contactID) {
       'url' => $url,
       'count' => count($accounts),
       'title' => ts('IBAN Accounts'),
-      'weight' => -100
+      'weight' => 1
     );
   }
 }
